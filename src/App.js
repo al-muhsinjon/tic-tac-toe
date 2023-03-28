@@ -78,11 +78,14 @@ function App() {
   }
 
   return (
+    <>
+    <title>Tic Tac Toe </title>
     <main className="flex items-center flex-col">
       <Message msg={message} />
       <Board square={square} handleClick={handleClick} />
       <Restart resetGame={resetGame} />
     </main>
+    </>
   )
 }
 
